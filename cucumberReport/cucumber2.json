@@ -1,0 +1,144 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 902802,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.before()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 160025341,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to write a step with precondition",
+            "match": {
+              "location": "TestSteps.iWantToWriteAStepWithPrecondition()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23947,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is logged in",
+            "match": {
+              "location": "TestSteps.userIsLoggedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20838,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User place an order",
+            "match": {
+              "location": "TestSteps.userPlaceAnOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 552346,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.before()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "test case 2",
+        "description": "",
+        "id": "title-of-your-feature;test-case-2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 432298,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I want to write a step with precondition",
+            "match": {
+              "location": "TestSteps.iWantToWriteAStepWithPrecondition()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22703,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is logged in",
+            "match": {
+              "location": "TestSteps.userIsLoggedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18039,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User place an order",
+            "match": {
+              "location": "TestSteps.userPlaceAnOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "Feature1 description",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "features/test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tagTest1"
+      }
+    ]
+  }  
+]
